@@ -31,7 +31,7 @@ body{
 }
 .social>img{
     margin: 30px 50px;
-    width: 150px;
+    width: 8%;
 }
 iframe{
     width: 50%;
@@ -49,7 +49,7 @@ iframe{
     letter-spacing: 5px;
 }
 .burger{
-    margin-left: -150px;
+    margin-left: -10%;
     width: 50%;
 }
 h1{
@@ -60,7 +60,7 @@ h1{
     margin: 0px;
 }
 .hero-section-box{
-    margin-right: -155px;
+    margin-right: -10%;
 }
 .hero-section-box>h1{
     padding-bottom: 50px;
