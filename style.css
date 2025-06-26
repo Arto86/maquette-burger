@@ -35,7 +35,7 @@ body{
 
 .burger{
     margin-left: -10%;
-    width: 50%;
+    width: clamp(250px, 50%, 1000px);
 }
 .social{
     display: flex;
@@ -65,7 +65,7 @@ body{
 
 
 iframe{
-    width: 50%;
+    width: clamp(250px, 50%, 1000px);
 }
 h1{
     letter-spacing: 10px;
@@ -88,7 +88,6 @@ p{
 
 @media only screen and (max-width: 600px){
     .hero-section{
-        height: auto;
         display: flex;
         flex-direction: column;
     }
@@ -99,10 +98,16 @@ p{
         height: auto;
         flex-direction: column;
     }
+    iframe{
+
+    }
     h1{
-        font-size: 5em;
+        font-size: 4em;
+    }
+    h2{
+        font-size: 3em;
     }
     p{
-        font-size: 2em;
+        font-size: 1em;
     }
 }
