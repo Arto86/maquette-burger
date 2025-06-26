@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: space-around;
     background: linear-gradient(110deg, brown, black);
-    padding: 5% 5% 10% 5%;
+    padding: 0% 5% 10% 5%;
 }
 .map-section {
     padding: 50px;
@@ -20,6 +20,7 @@ body{
 .about-section {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: bisque;
 }
 .social{
@@ -30,16 +31,39 @@ body{
 }
 .social>img{
     margin: 30px 50px;
+    width: 150px;
+}
+iframe{
+    width: 50%;
+}
+.about-section>p{
+    padding: 5% 5%;
+    color: black;
+}
+.about-section>h1{
+    color: rgb(55, 55, 55);
 }
 
 *{
     font-family: Bradley Hand, cursive;
+    letter-spacing: 5px;
+}
+.burger{
+    margin-left: -150px;
+    width: 50%;
 }
 h1{
-    margin-bottom: 0px;
+    letter-spacing: 10px;
     font-size: 7em;
     font-weight: bold;
     color: white;
+    margin: 0px;
+}
+.hero-section-box{
+    margin-right: -155px;
+}
+.hero-section-box>h1{
+    padding-bottom: 50px;
 }
 h2{
     font-size: 7em;
